@@ -21,7 +21,9 @@ body {
 #logo path {
     fill: transparent;
     stroke-width: 5px;
-    animation: anim 3s ease forwards;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    animation: anim 3s ease-in-out forwards;
 }
 
 @keyframes anim {
